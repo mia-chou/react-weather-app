@@ -1,0 +1,64 @@
+.Weather {
+  max-width: 600px;
+  padding: 16px;
+  background-color: #343f3e;
+  border-radius: 4px;
+  color: white;
+}
+.Weather{
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/702/original/25499.jpg?1708095970'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+}
+
+.Weather h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+  margin-bottom: 18px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.Weather img {
+  margin-right: 10px;
+  height: 85px;
+  height: 85px;
+  margin: 0;
+  float: left;
+}
+  
+.Weather .temperature {
+  font-weight: bold;
+  line-height: 64px;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.Weather .no-border {
+  border: 0;
+  box-shadow: none;
+}
