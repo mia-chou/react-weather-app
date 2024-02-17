@@ -19,7 +19,7 @@ function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/mia-chou/my-app"
+            href="https://github.com/mia-chou/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
