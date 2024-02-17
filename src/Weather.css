@@ -1,17 +1,14 @@
 .Weather {
   max-width: 600px;
   padding: 16px;
-  background-color: #343f3e;
   border-radius: 4px;
-  color: white;
+  color: #333333;
 }
 .Weather{
-  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/702/original/25499.jpg?1708095970'); 
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/766/original/Screenshot_2024-02-17_005344.png?1708131357'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-
 }
 
 .Weather h1 {
@@ -27,13 +24,6 @@
   padding: 0;
 }
 
-.Weather li {
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 19px;
-  list-style: none;
-  margin-bottom: 12px;
-}
 
 .Weather img {
   margin-right: 10px;
@@ -61,4 +51,22 @@
 .Weather .no-border {
   border: 0;
   box-shadow: none;
+}
+
+.Weather li {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+/* Search Button Styles */
+.search-button {
+  background-color: #5368B0; /* Darker shade of blue/purple */
+  color: #FFFFFF; /* White */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
