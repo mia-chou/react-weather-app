@@ -15,24 +15,25 @@ export default function WeatherInfo (props) {
 <div className="row mt-3">
   <div className="col-6">
     <div className="clearfix float-left">
-
-<WeatherTemperature celsius ={props.data.temperature}/>
-<span className = "temperature">
-{Math.round(props.data.temperature)}
-</span>
-<span className ="unit">°C</span>
-
+    
+    <div>
     <img src={props.data.iconUrl} alt={props.data.description} />
     </div>
-  </div>
-  <div className="col-6">
-    <ul>
+    
+    <div>
+    <WeatherTemperature celsius={props.data.temperature} />
+      </div>
+      </div>
+      </div>
+      <div className="col-6">
+
+      <ul>
       <li>Feels like: {Math.round(props.data.feelsLike)}°C </li>
       <li>Humidity: {Math.round(props.data.humidity)}%</li>
       <li>Wind: {Math.round(props.data.wind)} km/h</li>
     </ul>
   </div>
-</div>
-  </div>
+      </div>
+    </div>
   );
 }

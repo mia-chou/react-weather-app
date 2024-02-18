@@ -15,7 +15,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Fang-Yi Chou
+            <strong>Fang-Yi Chou</strong>
           </a>{" "}
           and is{" "}
           <a
@@ -23,7 +23,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            open-sourced on GitHub
+            <strong>open-sourced on GitHub</strong>
           </a>{" "}
           and{" "}
           <a
@@ -31,7 +31,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            hosted on Netlify
+            <strong>hosted on Netlify</strong>
           </a>
 
     </footer>
