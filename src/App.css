@@ -1,7 +1,14 @@
 .App {
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/865/original/Screenshot_2024-02-18_010426.png?1708218407');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Additional styles for your container */
+  width: 100%; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+
   max-width: 700px;
   margin: 30px auto;
-  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/865/original/Screenshot_2024-02-18_010426.png?1708218407'); 
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -14,5 +21,5 @@
 }
 
 body{
-  background-color: #D48288;
+  background-color: #efdbf2;
 }

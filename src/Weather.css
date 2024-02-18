@@ -1,19 +1,16 @@
 .Weather {
   font-family: arial, sans-serif;
   max-width: 600px;
-  margin: 60 px auto;
+  margin: 30 px auto;
   padding: 16px;
   color: #FFFFFF;
   letter-spacing: 4px;
   margin-right: auto;
+  border-radius: 4px;
     
   }
-  
-
-
 
 .btn {
-  background:#FFE600;
   color: #333333;
 }
 .Weather h1 {
