@@ -1,9 +1,18 @@
 .App {
-  max-width: 600px;
+  max-width: 700px;
   margin: 30px auto;
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/865/original/Screenshot_2024-02-18_010426.png?1708218407'); 
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .App footer {
-  font-size: 11px;
-  margin: 10px 0;
+  font-size: 12px;
+  margin: 20px 0;
+}
+.App footer a {
+  color: white;
+}
+
+body{
+  background-color: #D48288;
 }

@@ -45,8 +45,12 @@ if (weatherData.ready) {
       <input type="search" placeholder="Enter a city..." className="form-control no-border" autoFocus="on" onChange={handleCityChange}/>
       </div> 
       <div className="col-3">
-      <input type="submit" value="Search" className="btn btn-info w-100"/>
-      </div>
+              <input
+                type="submit"
+                value="Search"
+                className="btn btn-primary w-100"
+              />
+            </div>
       </div>
     </form>
     <WeatherInfo data={weatherData}/>
