@@ -14,11 +14,11 @@ export default function Weather(props) {
     coordinates: response.data.coord,
     city: response.data.city,
     date: new Date (response.data.time * 1000),
-    description: response.data.condition.description,
+    description: response.data.weather[0].description,
     icon: response.data.weather[0].icon,
-    temperature: response.data.temperature.current,
-    feelsLike: response.data.temperature.feels_like,
-    humidity: response.data.temperature.humidity,
+    temperature: response.data.main.temp,
+    feelsLike: response.data.main.feels_like,
+    humidity: response.data.weather[0].humidity,
     wind: response.data.wind.speed,
   })
 }
@@ -63,4 +63,4 @@ if (weatherData.ready) {
   search();
   return "Loading weather...";
 } 
-}
+} 
