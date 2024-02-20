@@ -33,12 +33,13 @@ export default function WeatherForecast(props) {
                 <div className="row">
                     <div className="col">
                         <div className="WeatherForacast-day">Tu</div>
-                        <WeatherIcon code="0id" sixe={36} />
+                        <WeatherIcon code = {forecast[0].weather[0].icon}sixe={36} />
                         <div className="WeatherForecast-temperatures">
                             <span className=" WeatherForecast-temperatures-max">
-                                {forecast[0].temp.max}°</span>
-                            <span className=" WeatherForecast-temperatures-min">6°C
-                            </span>
+                                {Math.round(forecast[0].temp.max)}°</span>
+                            <span className=" WeatherForecast-temperatures-min">
+                            {Math.round(forecast[0].temp.min)}°</span>
+                
                         </div>
                     </div>
                 </div>
