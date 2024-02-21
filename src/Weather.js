@@ -18,7 +18,7 @@ export default function Weather(props) {
     icon: response.data.weather[0].icon,
     temperature: response.data.main.temp,
     feelsLike: response.data.main.feels_like,
-    humidity: response.data.weather[0].humidity,
+    humidity: response.data.main.humidity,
     wind: response.data.wind.speed,
   })
 }
